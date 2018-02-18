@@ -29,7 +29,7 @@ h3 {
 
 h4 {
     font-size: 20;
-    margin-left: 60px;
+    text-align: center;
     color:  #4aaaa5;
 }
     
@@ -53,7 +53,7 @@ html{
     width: 1060px;
     height: 100%;
     margin: 0;
-    background-color: red);
+    background-color: red;
 }
 body {
     background-color: rgb(219, 211, 200);
@@ -98,21 +98,27 @@ img {
 	padding: 0;
     border: 0;  
 }
+div.container {
+    width: 100%; 
+             
 
+ 
+}
 /* About Me */
 div.container1 {
-    width: 650px; 
-    height: 550;          
+    width: 105%; 
+    height: 550px;          
     border: 2px  #dddddd;
     margin-top: 20px;
+    
     background-color: #ffffff;
     padding: 5px;   
-    float: left
+    float: left;
 }
 
 /* Connect with Me links */
 div.container2 {
-    width: 270px; 
+    width: 100%; 
     height: 200px;          
     border: 2px  #dddddd;
     margin-top: 20px;
@@ -233,14 +239,14 @@ div.box1 {
 }
 
 div.boxFooter {
-    width: 1060px;
+    width: 100%;
     height: 65px;
     border: 0.1px solid slategray;
     background-color: slategray;
 }
 
 div.topFooter {
-    width: 1060px;
+    width: 100%;
     height: 10px;
     border: 0.1px  #4aaaa5;
     background-color: #4aaaa5;
