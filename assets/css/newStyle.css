@@ -1,35 +1,57 @@
-
-
 .navbar-header {
     background-color: tomato;
-    color:black;
     padding-left: 2%;
     padding-right: 2%;
 }
 
-div.containerBody {
-    height:650px;
+div.containerAboutMe {
+    height: 650px;
+    /* margin-top:20px; */
     background-color: aqua;
     font-size: 16px;
-    padding:20px;
-    overflow:auto;
+    padding-left: 20px;
+    padding-right:30px;
+    overflow: auto;
+    margin-bottom: 20px;
 }
 
-.about_me {
-    color:#666666;
-    padding-left:20px;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    font-size: 30px;
-}
 div.profilePic {
     margin-right: 10px;
     margin-left: 10px;
     /* width:90%; */
-   float: left;
+    float: left;
 }
+
 div.containerCWM {
-    width:100%;
-    height:250px;
+    width: 100%;
+    height: 260px;
     background-color: blue;
+    margin-bottom:25px;
+    /* padding:15px; */
+}
+.topFooter {
+    /* margin-top:20px; */
+    background-color: blueviolet;
+    height: 10px;
+}
+div.bottomFooter {
+    background-color: slategray;
+    height: 50px;
+    text-align: center;
+    padding-top:10px;
+}
+
+.connect {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.about_me {
+    color: #666666;
+    padding-left: 20px;
+    padding-top: 0px;
+    /* padding-bottom: 10px; */
+    font-size: 25px;
 }
