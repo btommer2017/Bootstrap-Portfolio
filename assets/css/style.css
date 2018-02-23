@@ -39,7 +39,8 @@ h6 {
 }
 
 p {
-    margin-left: 10;
+    margin-left: 10px;
+    margin-right: 10px;
     color: #777777;
 }
 
@@ -94,10 +95,9 @@ table {
 
 img {
     float: left;
-    margin: 0 10 0 0;
-	padding: 0;
-    border: 0;  
 }
+
+
 div.container {
     width: 100%; 
              
