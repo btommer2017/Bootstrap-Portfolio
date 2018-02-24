@@ -4,17 +4,16 @@
     padding-left: 2%;
     padding-right: 2%;
     margin-top: 2px;
-    margin-bottom:2px;
+    margin-bottom: 2px;
     color: white;
-    
 }
 
 .navbar-brand {
-/* background-color: #4aaaa5; */
-/* background-image: url('../images/portfolioBackground.png'); */
-font-size: 20px;
-/* color: white; */
-/* text-align: center; */
+    /* background-color: #4aaaa5; */
+    /* background-image: url('../images/portfolioBackground.png'); */
+    font-size: 20px;
+    /* color: white; */
+    /* text-align: center; */
 }
 
 body {
@@ -25,13 +24,13 @@ body {
 div.containerAboutMe {
     height: 650px;
     /* margin-top:20px; */
-    background-color:#fff;
+    background-color: #fff;
     font-size: 16px;
     padding-left: 20px;
-    padding-right:30px;
+    padding-right: 30px;
     overflow: auto;
     margin-bottom: 20px;
-    color:#777;
+    color: #777;
 }
 
 div.profilePic {
@@ -46,22 +45,24 @@ div.containerCWM {
     margin-left: 2.5%;
     margin-right: 2.5%;
     height: 260px;
-    background-color:#fff;
-    margin-bottom:25px;
-    color:#777;
+    background-color: #fff;
+    margin-bottom: 25px;
+    color: #777;
     /* padding:15px; */
 }
+
 .topFooter {
     /* margin-top:20px; */
     background-color: #fff;
     height: 10px;
 }
+
 div.bottomFooter {
     background-image: url('../images/portfolioBackground.png');
     height: 50px;
     text-align: center;
-    padding-top:10px;
-    color:white;
+    padding-top: 10px;
+    color: white;
 }
 
 .connect {
@@ -77,4 +78,68 @@ div.bottomFooter {
     padding-top: 0px;
     /* padding-bottom: 10px; */
     font-size: 25px;
+}
+
+.text {
+    width: 98%;
+}
+
+.message_text {
+    width: 98%;
+    height: 300px;
+}
+
+div.containerPortfolio {
+    height: 650px;
+    width: 100%;
+    /* margin-top:20px; */
+    background-color: #fff;
+    font-size: 16px;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: auto;
+    margin-bottom: 20px;
+    color: #777;
+}
+
+div.port1 {
+    width: 30%;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    float: left;
+    margin-left: 5%;
+    margin-top: 15px;
+}
+
+div.port2 {
+    margin-left: 55%;
+    margin-top: 15px;
+    width: 33%;
+    height: 200px;
+    /* position: absolute; */
+    text-align: center;
+    color: white;
+    float: left;
+}
+
+div.port3 {
+    margin-left: 5%;
+    margin-top: 280px;
+    width: 30%;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+div.port4 {
+    margin-left: 48%;
+    margin-top: 280px;
+    width: 29%;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    color: white;
 }
