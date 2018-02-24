@@ -1,18 +1,37 @@
 .navbar-header {
-    background-color: tomato;
+    /* background-color: #4aaaa5; */
+    background-image: url('../images/portfolioBackground.png');
     padding-left: 2%;
     padding-right: 2%;
+    margin-top: 2px;
+    margin-bottom:2px;
+    color: white;
+    
+}
+
+.navbar-brand {
+/* background-color: #4aaaa5; */
+/* background-image: url('../images/portfolioBackground.png'); */
+font-size: 20px;
+/* color: white; */
+/* text-align: center; */
+}
+
+body {
+    background-image: url('../images/portfolioBackground.png');
+    /* C:\Users\btomm\Desktop\AA_HTML_PROJECTS\Bootstrap-Portfolio\assets\images\portfolioBackground.png */
 }
 
 div.containerAboutMe {
     height: 650px;
     /* margin-top:20px; */
-    background-color: aqua;
+    background-color:#fff;
     font-size: 16px;
     padding-left: 20px;
     padding-right:30px;
     overflow: auto;
     margin-bottom: 20px;
+    color:#777;
 }
 
 div.profilePic {
@@ -23,22 +42,26 @@ div.profilePic {
 }
 
 div.containerCWM {
-    width: 100%;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     height: 260px;
-    background-color: blue;
+    background-color:#fff;
     margin-bottom:25px;
+    color:#777;
     /* padding:15px; */
 }
 .topFooter {
     /* margin-top:20px; */
-    background-color: blueviolet;
+    background-color: #fff;
     height: 10px;
 }
 div.bottomFooter {
-    background-color: slategray;
+    background-image: url('../images/portfolioBackground.png');
     height: 50px;
     text-align: center;
     padding-top:10px;
+    color:white;
 }
 
 .connect {
